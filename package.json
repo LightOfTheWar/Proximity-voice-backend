@@ -1,0 +1,18 @@
+{
+    "name": "proximity-voice-web",
+    "version": "1.0.0",
+    "description": "Roblox Proximity Voice Chat By LightOfTheWar",
+    "main": "server.js",
+    "types": "commonjs",
+    "engines": {
+        "node": ">=18"
+    },
+    "dependencies": {
+        "express": "^4.18.2",
+        "socket.io": "^4.7.2",
+        "cors": "^2.8.5"
+    },
+    "scripts": {
+        "start": "node server.js"
+    }
+}
